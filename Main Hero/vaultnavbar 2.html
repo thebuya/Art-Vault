@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/vaultnavbar.css">
+    <link rel="stylesheet" href="css/swipestyle.css">
+
+     <!-- Icons only -->
+     <link rel="stylesheet" href="fonts/css/all.css">
+
+     
+</head>
+<!---->
+
+
+<body>
+<!--HERO_SECTION_BEGINS --> 
+
+<section class="hero" >
+
+<!-- navigation_bar:begins --> 
+    <nav>
+        <h2 class="logo"><span> The </span> Buya </h2>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu </label>
+
+        <ul>
+            <li> <a href="#"> Home</a></li>
+            <li><a href="#"> Shop </a>
+                <ul>
+                    <li> <a href="#">Photoshop Classes</a></li>
+                    <li> <a href="#">Fitness Apparell</a></li>
+                </ul>
+            
+            </li>
+            <li> <a href="#"> My Services </a>
+                <ul>
+                    <li> <a href="#">Front-End Developer</a></li>
+                    <li> <a href="#">Artist</a></li>
+                    <li> <a href="#">more
+                        <span class="fa fa-plus" ></span>
+                    </a>
+                        <ul>
+                            <li><a href="#">Blockchain developer</a></li>
+                            <li><a href="#">UI/UX Designer</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+    
+            <li> <a href="#"> Contact </a></li>
+        </ul>
+
+
+        <form action="https://www.youtube.com/search" method="get" class="search-bar">    
+            <input type="text" placeholder="Search for Art" name="q ">
+            <button type="submit" > <img src="images/search.png" alt=""> </button>
+        </form> 
+    </nav>
+<!-- navigation_bar:ends -->
+
+
+
+
+<!-- Login Popup window. --> 
+    <div class="container">
+        <button class="collectorbutton" type="button" onclick="opencollectorsign()" > Join Collectors Club </button>
+
+        <form action="" id="collectorsign" class="collectorsign" >
+            <h3>Collectors Club</h3>
+            <div class="input">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Collector name">                                                                         
+                <i class="fas fa-key"></i>
+                <input type="password" placeholder="Enter your key" class="form-password">
+                <p class="needkey">Forgot key |  <span>Become a Collector</span></p>
+                <button type="button" onclick="closecollectorsign()" >Open</button>
+            </div>
+            <p class="est" >est.2022.&copy; Buya</p>
+
+        </form>
+
+    </div>  
+
+
+
+
+<!-- Swipe Down Animation --> 
+    <div class="swipe-down-box">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div> 
+    <p class="check" ></p>
+ <!-- Swipe Down Animation Ends --> 
+
+</section>
+ 
+
+
+
+
+
+
+
+
+
+<!--Custom Java Script-->
+<script src="js/script.js"></script>
+</body>
+</html>
