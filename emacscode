@@ -1,0 +1,8 @@
+C- stands for CTRL
+
+C-h t CTRL-H followed by t , brings up tutorial
+ C-<chr>  means hold the  CONTROL key while typing the character <chr>
+	  Thus, C-f would be: hold the CONTROL key and type f.
+ M-<chr>  means hold the META or ALT key down while typing <chr>.
+	  If there is no META or ALT key, instead press and release the
+	  ESC key and then type <chr>.  We write <ESC> for the ESC key.

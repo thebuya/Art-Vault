@@ -1,0 +1,99 @@
+!bin/bash
+echo  "HelloWorld"
+
+
+
+					
+SHELL CHEAT CODES
+d			- Deletes Word.
+dd			- Deletes Entires Line
+Ctrl+v		- Block Visual Block Mode...Selecting column-wise
+Shift+v		-
+==			- auto-indents
+gg to move to begin
+
+/url - search for url, then keep pre
+
+
+Marking Locations.
+ma - marks the point
+'a - brings it to a point
+
+
+zz centers file content
+
+Searching adn Replacing
+Substituitng Strings and Replacing commands
+:%s/character/symbol/g   Replacing character with symbol in whatevre.
+
+:s/symbol/something/g  Replacing in a selected block of code. [No %
+
+dt - Delete Till
+
+:reg shows our reg
+"7p - Copies from the 7th list on Registrar
+
+"+ is the clipboard registrat, so can copy to it or from it.
+
+"O - The last think I copied not by cutting or deleting
+
+
+
+
+Use normal Vim for a couple of weeks mfirst
+Once you have the plugins; you can add NeoVim
+$ suo apt install neovim to install it
+
+
+
+
+Symbolic Links 
+ln -s file sl_file
+
+Seeing Node Number. [Special No. For Each Object.] 
+ls -i
+
+
+
+The Kill Command For PS
+Allows us kill a process, based off their Process ID.
+kill PID
+
+Kill -s HUP PID -- if need to get forcefull arises.
+
+The Kill All Command.
+--Didnt Write it Because...--
+
+
+
+
+
+
+
+
+
+
+
+USING VARIABLES
+Buya="Morrishd Higenyi" #Make Sure There are no spaces b4 or after "=".
+Use $ to echo variable out.
+
+Naming Variables.
+1. Englishletters_numbers_underscores.
+2. First Character cannot begin with a number.
+3. There can be no spaces in the middle of a variable name.
+4. Variable names cannot be punctuated.
+5. Bash keywords cannot be used for variable names.
+ 
+Read Only Variable.
+readonly VAR -- Makes the VAR readonly, cant change its value.
+
+Input To Variable 
+echo "Please input your name. "
+zsh:1: command not found: s-ltr
+zsh:1: command not found: s-ltr
+unset snapchat
+
+ifconfig
+uname -a
+blkid = shows our harddrives.
